@@ -14,3 +14,4 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 GENERATED_DATA_DIR = DATA_DIR / "generated"
 
 MODELS_DIR = PROJ_ROOT / "models"
+KM_DIR = PROJ_ROOT / "models" / "kmeans"
