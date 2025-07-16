@@ -6,7 +6,7 @@ import tensorflow as tf
 from config import PROCESSED_DATA_DIR, MODELS_DIR
 
 
-class KMeans(object):
+class KohonenMaps(object):
     def __init__(self, n_clusters=2, random_state=0, max_iter=100, tol=0.0001):
         self.n_clusters = n_clusters
         self.random_state = random_state
